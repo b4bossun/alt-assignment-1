@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mediacontainer{
+    display: grid;
+    justify-items: center;
+    /* border: dotted; */
+    background-color: rgb(208, 208, 188);
+    width: 1000px;
+    margin: auto;
+    min-height: 1000px ;
+    font-family: "Alike";
+}
+#mediaindexnav{
+    margin-bottom: 100px;
+}
+#figuresection{
+}
+#desktopimage{
+    max-width:800Px;
+
+}
+.picturesection{
+    max-height: 1250px;
+    max-width: 1100px;
+}
+#ps2{
+    min-width: 300px;
+    min-height: 300px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    text-decoration: none;
+    border-radius: 7px;
+    border: none;
+    height: 40px;
+    width: 350px;
+    background-color: rgb(106,111,245);
+    color: white;  
+    margin-top: 20px;
+ }
+
+ a:hover{
+    cursor: pointer;
+    background-color: rgb(133, 136, 219);
+    width: 350px;
+
+}
+
+.caption {
+    display: flex;
+    justify-content: center;
+}
+
+audio{
+    width: 1000px;
+}
+
+.summary{
+    background-color: rgb(133, 136, 219);
+    border-radius: 7px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 350px;
+    padding-top: 10px;
+    color: white;
+}
+
+.summary:hover{
+    cursor: pointer;
+    background-color: rgb(133, 136, 219);
+    width: 350px;
+
+}
